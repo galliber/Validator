@@ -4,7 +4,7 @@ public class EGNValidator
 {
 	private Pattern pattEGN;
 	private Matcher matchEGN;
-	private static final String EGN_PATTERN="[0-9]{10}";
+	private static final String EGN_PATTERN="^[0-9]{10}$";
 	
 	public EGNValidator()
 	{

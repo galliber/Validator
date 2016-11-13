@@ -4,7 +4,7 @@ public class NameValidator
 {
 	private Pattern pattU;
 	private Matcher matchU;
-	private static final String NAME_PATTERN="[A-Z][a-zA-Z- ]{8,50}";
+	private static final String NAME_PATTERN="^[A-Z][a-zA-Z- ]{8,50}$";
 	
 	public NameValidator()
 	{
